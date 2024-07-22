@@ -4,7 +4,7 @@
 
 <h1>Testing will beging in the end of july 🧪🧪 </h1>
 
-<h1> The first demo will be deployed by 8th of august to the app store 🚀🚀🚀</h1>
+<h1> The first demo will be deployed by 8th of august to the app store 🚀🚀</h1>
 
 <br>
 
