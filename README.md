@@ -6,6 +6,8 @@
 
 <h1> The first demo will be deployed by 8th of august to the app store 🚀🚀🚀</h1>
 
+<br>
+
 <h3>There is no official documentation available at the moment (23.7.2024)<h/3></h3>
 
 
