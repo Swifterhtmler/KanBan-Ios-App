@@ -21,3 +21,6 @@ class Expense {
         self.value = value
     }
 }
+
+// @Schema(.unique)
+
