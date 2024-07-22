@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24BF7B582C4EA75300B7A678 /* KanBan_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B572C4EA75300B7A678 /* KanBan_ProApp.swift */; };
+		24BF7B5A2C4EA75300B7A678 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B592C4EA75300B7A678 /* ContentView.swift */; };
+		24BF7B5C2C4EA75300B7A678 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B5B2C4EA75300B7A678 /* Item.swift */; };
+		24BF7B5E2C4EA75500B7A678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BF7B5D2C4EA75500B7A678 /* Assets.xcassets */; };
+		24BF7B612C4EA75500B7A678 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BF7B602C4EA75500B7A678 /* Preview Assets.xcassets */; };
+		24BF7B6B2C4EA75500B7A678 /* KanBan_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B6A2C4EA75500B7A678 /* KanBan_ProTests.swift */; };
+		24BF7B752C4EA75500B7A678 /* KanBan_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B742C4EA75500B7A678 /* KanBan_ProUITests.swift */; };
+		24BF7B772C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B762C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24BF7B672C4EA75500B7A678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BF7B4C2C4EA75300B7A678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BF7B532C4EA75300B7A678;
+			remoteInfo = "KanBan Pro";
+		};
+		24BF7B712C4EA75500B7A678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24BF7B4C2C4EA75300B7A678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BF7B532C4EA75300B7A678;
+			remoteInfo = "KanBan Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24BF7B542C4EA75300B7A678 /* KanBan Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KanBan Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BF7B572C4EA75300B7A678 /* KanBan_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanBan_ProApp.swift; sourceTree = "<group>"; };
+		24BF7B592C4EA75300B7A678 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24BF7B5B2C4EA75300B7A678 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		24BF7B5D2C4EA75500B7A678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24BF7B602C4EA75500B7A678 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24BF7B662C4EA75500B7A678 /* KanBan ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KanBan ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BF7B6A2C4EA75500B7A678 /* KanBan_ProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanBan_ProTests.swift; sourceTree = "<group>"; };
+		24BF7B702C4EA75500B7A678 /* KanBan ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KanBan ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24BF7B742C4EA75500B7A678 /* KanBan_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanBan_ProUITests.swift; sourceTree = "<group>"; };
+		24BF7B762C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanBan_ProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24BF7B512C4EA75300B7A678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BF7B632C4EA75500B7A678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BF7B6D2C4EA75500B7A678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24BF7B4B2C4EA75300B7A678 = {
+			isa = PBXGroup;
+			children = (
+				24BF7B562C4EA75300B7A678 /* KanBan Pro */,
+				24BF7B692C4EA75500B7A678 /* KanBan ProTests */,
+				24BF7B732C4EA75500B7A678 /* KanBan ProUITests */,
+				24BF7B552C4EA75300B7A678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24BF7B552C4EA75300B7A678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24BF7B542C4EA75300B7A678 /* KanBan Pro.app */,
+				24BF7B662C4EA75500B7A678 /* KanBan ProTests.xctest */,
+				24BF7B702C4EA75500B7A678 /* KanBan ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24BF7B562C4EA75300B7A678 /* KanBan Pro */ = {
+			isa = PBXGroup;
+			children = (
+				24BF7B572C4EA75300B7A678 /* KanBan_ProApp.swift */,
+				24BF7B592C4EA75300B7A678 /* ContentView.swift */,
+				24BF7B5B2C4EA75300B7A678 /* Item.swift */,
+				24BF7B5D2C4EA75500B7A678 /* Assets.xcassets */,
+				24BF7B5F2C4EA75500B7A678 /* Preview Content */,
+			);
+			path = "KanBan Pro";
+			sourceTree = "<group>";
+		};
+		24BF7B5F2C4EA75500B7A678 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24BF7B602C4EA75500B7A678 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24BF7B692C4EA75500B7A678 /* KanBan ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				24BF7B6A2C4EA75500B7A678 /* KanBan_ProTests.swift */,
+			);
+			path = "KanBan ProTests";
+			sourceTree = "<group>";
+		};
+		24BF7B732C4EA75500B7A678 /* KanBan ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24BF7B742C4EA75500B7A678 /* KanBan_ProUITests.swift */,
+				24BF7B762C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift */,
+			);
+			path = "KanBan ProUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24BF7B532C4EA75300B7A678 /* KanBan Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BF7B7A2C4EA75600B7A678 /* Build configuration list for PBXNativeTarget "KanBan Pro" */;
+			buildPhases = (
+				24BF7B502C4EA75300B7A678 /* Sources */,
+				24BF7B512C4EA75300B7A678 /* Frameworks */,
+				24BF7B522C4EA75300B7A678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KanBan Pro";
+			productName = "KanBan Pro";
+			productReference = 24BF7B542C4EA75300B7A678 /* KanBan Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24BF7B652C4EA75500B7A678 /* KanBan ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BF7B7D2C4EA75600B7A678 /* Build configuration list for PBXNativeTarget "KanBan ProTests" */;
+			buildPhases = (
+				24BF7B622C4EA75500B7A678 /* Sources */,
+				24BF7B632C4EA75500B7A678 /* Frameworks */,
+				24BF7B642C4EA75500B7A678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BF7B682C4EA75500B7A678 /* PBXTargetDependency */,
+			);
+			name = "KanBan ProTests";
+			productName = "KanBan ProTests";
+			productReference = 24BF7B662C4EA75500B7A678 /* KanBan ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24BF7B6F2C4EA75500B7A678 /* KanBan ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24BF7B802C4EA75600B7A678 /* Build configuration list for PBXNativeTarget "KanBan ProUITests" */;
+			buildPhases = (
+				24BF7B6C2C4EA75500B7A678 /* Sources */,
+				24BF7B6D2C4EA75500B7A678 /* Frameworks */,
+				24BF7B6E2C4EA75500B7A678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24BF7B722C4EA75500B7A678 /* PBXTargetDependency */,
+			);
+			name = "KanBan ProUITests";
+			productName = "KanBan ProUITests";
+			productReference = 24BF7B702C4EA75500B7A678 /* KanBan ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24BF7B4C2C4EA75300B7A678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					24BF7B532C4EA75300B7A678 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					24BF7B652C4EA75500B7A678 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24BF7B532C4EA75300B7A678;
+					};
+					24BF7B6F2C4EA75500B7A678 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 24BF7B532C4EA75300B7A678;
+					};
+				};
+			};
+			buildConfigurationList = 24BF7B4F2C4EA75300B7A678 /* Build configuration list for PBXProject "KanBan Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24BF7B4B2C4EA75300B7A678;
+			productRefGroup = 24BF7B552C4EA75300B7A678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24BF7B532C4EA75300B7A678 /* KanBan Pro */,
+				24BF7B652C4EA75500B7A678 /* KanBan ProTests */,
+				24BF7B6F2C4EA75500B7A678 /* KanBan ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24BF7B522C4EA75300B7A678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BF7B612C4EA75500B7A678 /* Preview Assets.xcassets in Resources */,
+				24BF7B5E2C4EA75500B7A678 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BF7B642C4EA75500B7A678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BF7B6E2C4EA75500B7A678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24BF7B502C4EA75300B7A678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BF7B5A2C4EA75300B7A678 /* ContentView.swift in Sources */,
+				24BF7B5C2C4EA75300B7A678 /* Item.swift in Sources */,
+				24BF7B582C4EA75300B7A678 /* KanBan_ProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BF7B622C4EA75500B7A678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BF7B6B2C4EA75500B7A678 /* KanBan_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24BF7B6C2C4EA75500B7A678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24BF7B752C4EA75500B7A678 /* KanBan_ProUITests.swift in Sources */,
+				24BF7B772C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24BF7B682C4EA75500B7A678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BF7B532C4EA75300B7A678 /* KanBan Pro */;
+			targetProxy = 24BF7B672C4EA75500B7A678 /* PBXContainerItemProxy */;
+		};
+		24BF7B722C4EA75500B7A678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24BF7B532C4EA75300B7A678 /* KanBan Pro */;
+			targetProxy = 24BF7B712C4EA75500B7A678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24BF7B782C4EA75600B7A678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24BF7B792C4EA75600B7A678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24BF7B7B2C4EA75600B7A678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KanBan Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = 27T36LCP7G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appi.appi.KanBan-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24BF7B7C2C4EA75600B7A678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KanBan Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = 27T36LCP7G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appi.appi.KanBan-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24BF7B7E2C4EA75600B7A678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27T36LCP7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appi.appi.KanBan-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanBan Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KanBan Pro";
+			};
+			name = Debug;
+		};
+		24BF7B7F2C4EA75600B7A678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27T36LCP7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appi.appi.KanBan-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanBan Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KanBan Pro";
+			};
+			name = Release;
+		};
+		24BF7B812C4EA75600B7A678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27T36LCP7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appi.appi.KanBan-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KanBan Pro";
+			};
+			name = Debug;
+		};
+		24BF7B822C4EA75600B7A678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 27T36LCP7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appi.appi.KanBan-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KanBan Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24BF7B4F2C4EA75300B7A678 /* Build configuration list for PBXProject "KanBan Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BF7B782C4EA75600B7A678 /* Debug */,
+				24BF7B792C4EA75600B7A678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BF7B7A2C4EA75600B7A678 /* Build configuration list for PBXNativeTarget "KanBan Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BF7B7B2C4EA75600B7A678 /* Debug */,
+				24BF7B7C2C4EA75600B7A678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BF7B7D2C4EA75600B7A678 /* Build configuration list for PBXNativeTarget "KanBan ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BF7B7E2C4EA75600B7A678 /* Debug */,
+				24BF7B7F2C4EA75600B7A678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24BF7B802C4EA75600B7A678 /* Build configuration list for PBXNativeTarget "KanBan ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24BF7B812C4EA75600B7A678 /* Debug */,
+				24BF7B822C4EA75600B7A678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24BF7B4C2C4EA75300B7A678 /* Project object */;
+}
