@@ -2,9 +2,9 @@
 
 <h1>This Project is currently at the production stage 🏗️</h1>
 
-<h1>Testing will beging in the end of july 🧪🧪 </h1>
+<h2>Testing will beging in the end of july 🧪🧪 </h2>
 
-<h1> The first demo will be deployed by 8th of august to the app store 🚀🚀</h1>
+<h2> The first demo will be deployed by 8th of august to the app store 🚀🚀</h2>
 
 <br>
 
