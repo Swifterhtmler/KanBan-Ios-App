@@ -15,6 +15,7 @@
 		24BF7B6B2C4EA75500B7A678 /* KanBan_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B6A2C4EA75500B7A678 /* KanBan_ProTests.swift */; };
 		24BF7B752C4EA75500B7A678 /* KanBan_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B742C4EA75500B7A678 /* KanBan_ProUITests.swift */; };
 		24BF7B772C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B762C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift */; };
+		24BF7B842C4EE22000B7A678 /* expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF7B832C4EE22000B7A678 /* expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		24BF7B702C4EA75500B7A678 /* KanBan ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KanBan ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BF7B742C4EA75500B7A678 /* KanBan_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanBan_ProUITests.swift; sourceTree = "<group>"; };
 		24BF7B762C4EA75500B7A678 /* KanBan_ProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanBan_ProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24BF7B832C4EE22000B7A678 /* expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				24BF7B572C4EA75300B7A678 /* KanBan_ProApp.swift */,
 				24BF7B592C4EA75300B7A678 /* ContentView.swift */,
+				24BF7B832C4EE22000B7A678 /* expense.swift */,
 				24BF7B5B2C4EA75300B7A678 /* Item.swift */,
 				24BF7B5D2C4EA75500B7A678 /* Assets.xcassets */,
 				24BF7B5F2C4EA75500B7A678 /* Preview Content */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24BF7B842C4EE22000B7A678 /* expense.swift in Sources */,
 				24BF7B5A2C4EA75300B7A678 /* ContentView.swift in Sources */,
 				24BF7B5C2C4EA75300B7A678 /* Item.swift in Sources */,
 				24BF7B582C4EA75300B7A678 /* KanBan_ProApp.swift in Sources */,
