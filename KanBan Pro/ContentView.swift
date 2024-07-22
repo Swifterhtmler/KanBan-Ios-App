@@ -41,18 +41,22 @@ struct BackgroundView: View {
             .background(
                 LinearGradient(gradient: Gradient(colors: [Color(red: 0.79, green: 0.98, blue: 0.97), Color(red: 0.79, green: 0.79, blue: 0.79), Color(red: 0.45, green: 0.45, blue: 0.45)]), startPoint: .top, endPoint: .bottom)
             )
+            .ignoresSafeArea()
     }
 }
 
 struct HeaderView: View {
     var body: some View {
         VStack(spacing: 10) {
-            Text("From Here")
-                .font(Font.custom("Alfa Slab One", size: 50))
-                .foregroundColor(Color(red: 0.32, green: 0.47, blue: 0.98))
+            
             Text("Let’s Start Organising")
                 .font(Font.custom("Alfa Slab One", size: 35))
                 .foregroundColor(Color(red: 0.55, green: 0.79, blue: 0.15))
+            
+            Text("From Here")
+                .font(Font.custom("Alfa Slab One", size: 50))
+                .foregroundColor(Color(red: 0.32, green: 0.47, blue: 0.98))
+           
         }
         .padding(.top, 50)
     }
@@ -77,6 +81,7 @@ struct SignInButton: View {
             .background(color)
             .cornerRadius(9.08)
             .shadow(color: Color(red: 0, green: 0, blue: 0, opacity: 0.16), radius: 2.72, y: 1.82)
+            
         }
         .frame(width: 218, height: 44)
     }
