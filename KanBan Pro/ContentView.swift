@@ -39,7 +39,7 @@ struct BackgroundView: View {
             .opacity(0.6)
             .frame(width: 393, height: 852)
             .background(
-                LinearGradient(gradient: Gradient(colors: [Color(red: 0.79, green: 0.98, blue: 0.97), Color(red: 0.79, green: 0.79, blue: 0.79), Color(red: 0.45, green: 0.45, blue: 0.45)]), startPoint: .top, endPoint: .bottom)
+                LinearGradient(gradient: Gradient(colors: [Color(red: 0.82, green: 0.98, blue: 0.97), Color(red: 0.79, green: 0.79, blue: 0.79), Color(red: 0.45, green: 0.45, blue: 0.45)]), startPoint: .top, endPoint: .bottom)
             )
             .ignoresSafeArea()
     }
